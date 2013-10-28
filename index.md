@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Marcus
+title: Marcus Ericsson
 ---
 {% include JB/setup %}
 

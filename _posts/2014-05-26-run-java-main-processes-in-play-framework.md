@@ -12,9 +12,9 @@ If you use [Java Play] as your web app framework and want to run a Java main pro
 
 First, with Heroku you can use [Heroku Scheduler].  Java Play works well with Heroku Scheduler.  For my version (2.1.3) of Java Play, to do that you need to create a Procfile that looks something like this]:
 
-  web: target/start -Dhttp.port=${PORT} ${JAVA_OPTS}
-  emailworker: java -Dconfig.file=conf/application.conf -cp "target/staged/*" jobs.JobProcessMain .
-  appUpgrader: java -Dconfig.file=conf/application.conf -cp "target/staged/*" jobs.AppUpgradeMain .
+    web: target/start -Dhttp.port=${PORT} ${JAVA_OPTS}
+    emailworker: java -Dconfig.file=conf/application.conf -cp "target/staged/*" jobs.JobProcessMain .
+    appUpgrader: java -Dconfig.file=conf/application.conf -cp "target/staged/*" jobs.AppUpgradeMain .
   
 First line `web` is to start the web application.  Without a Procfile, this is done by default.  The `emailworker` and `appUpgrader` point to two Java classes with static main methods defined.
 
@@ -27,7 +27,7 @@ This works great but there are a few gotchas with Heroku Scheduler.
 
 Instead, if you would like to run a one off Java Play process manually on command line (or EC2) it is important to remember that Play Framework wraps sbt and sbt commands can be run inside Play.  In this case, we want to run the sbt command `runMain`.  In Java Play, the way you would do it is:
 
-  play "run-main jobs.JobProcessMain ."
+    play "run-main jobs.JobProcessMain ."
 
 I suspect this is what Heroku is doing under the hood.
 

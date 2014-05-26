@@ -25,7 +25,7 @@ This works great but there are a few gotchas with Heroku Scheduler.
 1. Any time a one-off job runs, it uses Dyno resources and and can cost you money.
 2. Heroku Scheduler only runs as frequent as every 15 minutes.
 
-Instead, if you would like to run a one off Java Play process manually on command line (or EC2) it is important to remember that Play Framework wraps sbt and sbt commands can be run inside Play.  In this case, we want to run the sbt command `runMain`.  In Java Play, the way you would do it is:
+Instead, if you would like to run a one off Java Play process manually on command line (or EC2) it is important to remember that Play Framework wraps [sbt] and sbt commands can be run inside Play.  In this case, we want to run the sbt command `runMain`.  In Java Play, the way you would do it is:
 
     play "run-main jobs.JobProcessMain ."
 
@@ -34,3 +34,4 @@ I suspect this is what Heroku is doing under the hood.
 [side project]: http://betainbox.launchrock.com
 [Java Play]: http://www.playframework.com/
 [Heroku Scheduler]: https://addons.heroku.com/scheduler
+[sbt]: http://www.scala-sbt.org/

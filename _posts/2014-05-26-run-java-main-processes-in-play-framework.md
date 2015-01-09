@@ -31,7 +31,22 @@ Instead, if you would like to run a one off Java Play process manually on comman
 
 I suspect this is what Heroku is doing under the hood.
 
+*Update 2015-01-09*
+  
+The above command is not ideal.  It successfully runs the main class but it fails to end the 
+sbt session which will cause the process to hang.  sbt offers the helpful [sbt exit] command and play gives you a way to string sbt commands as found in the `play help `.
+
+	; <command> (; <command>)*   Runs the provided semicolon-separated commands.
+
+
+So the ideal result is:
+
+	play "; run-main jobs.JobProcessMain . ; exit"
+	
+Now when the JobProcessMain completes, the `sbt exit` will be called immediately afterward.
+
 [side project]: http://betainbox.launchrock.com
 [Java Play]: http://www.playframework.com/
 [Heroku Scheduler]: https://addons.heroku.com/scheduler
 [sbt]: http://www.scala-sbt.org/
+[sbt exit]: http://www.scala-sbt.org/0.13/docs/Command-Line-Reference.html

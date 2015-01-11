@@ -43,10 +43,11 @@ So the ideal result is:
 
 	play "; run-main jobs.JobProcessMain . ; exit"
 	
-Now when the JobProcessMain completes, the `sbt exit` will be called immediately afterward.
+Now when the JobProcessMain completes, the `sbt exit` will be called immediately afterward.  Hope this helps!  Send any questions/comments to me [@mericsson]. 
 
 [side project]: http://betainbox.launchrock.com
 [Java Play]: http://www.playframework.com/
 [Heroku Scheduler]: https://addons.heroku.com/scheduler
 [sbt]: http://www.scala-sbt.org/
 [sbt exit]: http://www.scala-sbt.org/0.13/docs/Command-Line-Reference.html
+[@mericsson]: https://twitter.com/mericsson

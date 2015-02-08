@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Recently, I was tasked with figuring out payment processing for an online pastry website.  It has been a while since I've looked at payment processing solutions.
+Recently, I was tasked with figuring out payment processing for a [pastry website](https://melangepastrylab.com).  It has been a while since I've looked at payment processing solutions.
 
 I considered the following options..
 

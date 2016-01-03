@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Run Java main processes in Play Framework"
-description: ""
-category: ""
-tags: []
+title: "Run Java main processes in Play Framework on Heroku"
+excerpt: "Square peg in round hole?"
+tags: [Java Play, Heroku, Heroku Scheduler]
+comments: true
 ---
-{% include JB/setup %}
+
 I have been working on a [side project] for a while now (more on that later!) but just wanted to share a quick helper for something I was stuck on.
 
 If you use [Java Play] as your web app framework and want to run a Java main process (utilizing the same Play environment) there are a few options.  Initially, I used Heroku to do this but later when moving to EC2 I needed to run them manually.

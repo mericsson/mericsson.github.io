@@ -1,15 +1,12 @@
 ---
 layout: post
 title: "Stripe and Github Pages"
-description: ""
-category: ""
-tags: []
+excerpt: "As close to free as possible."
+tags: [Square, Payment Processing, GitHub Pages, Heroku, Stripe]
+comments: true
 ---
-{% include JB/setup %}
 
-Recently, I was tasked with figuring out payment processing for a [pastry website](https://melangepastrylab.com).  It has been a while since I've looked at payment processing solutions.
-
-I considered the following options..
+Recently, I was tasked with figuring out payment processing for a [pastry website](https://melangepastrylab.com).  It has been a while since I've looked at payment processing solutions.  I considered the following options:
 
 - [Squarespace](http://www.squarespace.com/)
 - [Square Market](https://squareup.com/market)

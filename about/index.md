@@ -2,7 +2,7 @@
 layout: page
 title: About Marcus
 tags:
-modified: 2015-08-08T20:53:07.573882-04:00
+modified: 2016-11-14T20:53:07.573882-04:00
 comments: false
 ---
 
@@ -12,4 +12,4 @@ Hi there! In a past life I was a lead engineer behind Salesforce Topics powering
 I am currently testing my startup chops interested in working on messaging, personalization, and discovery. I am passionate about building useful software.
 
 
-My latest project is [Owahu](https://owahu.com) - a cross company messenger for Account and Customer Success Managers.
+My latest project is [Clarkson](https://clarksonapp.com) - a smarter release notes platform.

@@ -12,4 +12,4 @@ Hi there! In a past life I was a lead engineer behind Salesforce Topics powering
 I am currently testing my startup chops interested in working on messaging, personalization, and discovery. I am passionate about building useful software.
 
 
-My latest project is [Clarkson](https://clarksonapp.com) - a smarter release notes platform.
+My latest project is [ZenBox](https://zenbox.co) - a zero inbox tool.

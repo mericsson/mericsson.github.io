@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from "react-helmet"
 import { prefixLink } from 'gatsby-helpers'
-import { GoogleFont } from 'react-typography'
 
 const BUILD_TIME = new Date().getTime()
 
@@ -30,11 +29,11 @@ module.exports = React.createClass({
           />
           {head.title.toComponent()}
           {head.meta.toComponent()}
-          <link href="https://fonts.googleapis.com/css?family=Athiti|Source+Code+Pro" rel="stylesheet"/>
           {css}
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
+          <link href="https://fonts.googleapis.com/css?family=Athiti|Source+Code+Pro" rel="stylesheet"/>
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
         </body>
       </html>

@@ -2,6 +2,10 @@
 
 Blog based on Gatsby starter blog https://github.com/gatsbyjs/gatsby-starter-blog
 
+## Installation
+
+`yarn install`
+
 ## Running in dev
 
 `yarn run dev`

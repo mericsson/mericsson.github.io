@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-import { prefixLink } from 'gatsby-helpers'
 
 class Header extends React.Component {
 
@@ -8,11 +7,11 @@ class Header extends React.Component {
     return (
       <header className="site-header">
         <div className="wrapper">
-          <Link to={prefixLink('/')}>
+          <Link to={'/'}>
             <span className="site-title">Marcus Ericsson</span>
           </Link>
           <nav className="site-nav">
-            <Link to={prefixLink('/about/')}>
+            <Link to={'/about/'}>
               <span className="page-link">About</span>
             </Link>
           </nav>

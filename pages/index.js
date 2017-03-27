@@ -3,7 +3,6 @@ import moment from 'moment';
 import { Link } from 'react-router';
 import DocumentTitle from 'react-document-title';
 import access from 'safe-access';
-import { prefixLink } from 'gatsby-helpers';
 import { config } from 'config';
 
 class Index extends React.Component {
@@ -29,7 +28,7 @@ class Index extends React.Component {
             <h2>
               <span className="post-link">
                 <Link
-                  to={prefixLink(page.path)}>
+                  to={page.path}>
                   {title}
                 </Link>
               </span>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { prefixLink } from 'gatsby-helpers'
 
 const BUILD_TIME = new Date().getTime()
 
@@ -30,7 +29,7 @@ module.exports = React.createClass({
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
           <link href="https://fonts.googleapis.com/css?family=Athiti|Source+Code+Pro" rel="stylesheet"/>
-          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script src={`/bundle.js?t=${BUILD_TIME}`} />
         </body>
       </html>
     )

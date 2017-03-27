@@ -1,8 +1,17 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# mericsson.github.io
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+Blog based on Gatsby starter blog https://github.com/gatsbyjs/gatsby-starter-blog
 
-## Running in development
-`gatsby develop`
+## Running in dev
+
+`yarn run dev`
+
+## Build and serve locally
+
+To test production deployment before deploying do:
+
+`yarn run build-serve`
+
+## Deploy to github master branch
+
+`yarn run deploy`

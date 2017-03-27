@@ -21,6 +21,7 @@
     "dev": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gatsby build",
+    "build-serve": "gatsby build && gatsby serve-build",
     "deploy": "gatsby build && gh-pages -d public -b master"
   }
 }

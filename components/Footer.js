@@ -15,6 +15,9 @@ class Footer extends React.Component {
         <div className="wrapper">
           <div className="footer-col-wrapper">
             <div className="footer-col footer-col-1">
+              <a href="http://www.google.com/recaptcha/mailhide/d?k=01e98wMuv51P2LwvcSHQoIsg==&amp;c=kGeKWe4iCxzxKtD9IqgAeN5Kh0NJrNBELnDPbsRR_p4=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01e98wMuv51P2LwvcSHQoIsg\x3d\x3d\x26c\x3dkGeKWe4iCxzxKtD9IqgAeN5Kh0NJrNBELnDPbsRR_p4\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">m...</a>@gmail.com
+            </div>
+            <div className="footer-col footer-col-2">
               <ul className="social-media-list">
                 <li>
                   <a href="https://github.com/mericsson">
@@ -42,7 +45,7 @@ class Footer extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className="footer-col footer-col-2">
+            <div className="footer-col footer-col-3">
               <p>
                 cool guy extraordinaire.
               </p>

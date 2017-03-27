@@ -1,25 +1,37 @@
 {
-  "name": "minimal-mistakes-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/minimal-mistakes/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
+  "name": "mericsson-blog",
+  "description": "Marcus' Blog",
+  "version": "1.0.0",
+  "author": "Marcus Ericsson <mericsson@gmail.com>",
+  "dependencies": {
+    "gatsby": "^0.12.36",
+    "lodash": "^4.17.2",
+    "moment": "^2.17.1",
+    "react-addons-shallow-compare": "^15.4.1",
+    "react-dates": "^4.1.0",
+    "react-helmet": "^3.2.2",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.15.0",
+    "safe-access": "^0.1.0",
+    "typography": "^0.15.0",
+    "typography-theme-wordpress-2016": "^0.15.0",
+    "underscore.string": "^3.2.3"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-recess": "~0.3.5",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-svgmin": "~0.2.0"
+    "gh-pages": "^0.12.0"
+  },
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mericsson/mericsson.github.io.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public"
   }
 }

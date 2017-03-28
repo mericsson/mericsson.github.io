@@ -4,7 +4,7 @@ date: 2017-03-28T12:00:00.000Z
 path: /zenbox-beta/
 ---
 
-Finally proud to announce the launch of the [zenbox.co](https://zenbox.co) beta!
+I'm proud to announce the launch of the [zenbox.co](https://zenbox.co) beta!
 
 I built zenbox.co to solve email overload. As an [Inbox Zero](http://www.43folders.com/izero) geek I believe keeping a tidy inbox is essential to productivity.
 

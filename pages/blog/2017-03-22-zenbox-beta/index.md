@@ -1,14 +1,17 @@
 ---
 title: Announcing zenbox.co beta!
-date: 2017-03-27T12:00:00.000Z
+date: 2017-03-28T12:00:00.000Z
 path: /zenbox-beta/
 ---
 
 Finally proud to announce the launch of the [zenbox.co](https://zenbox.co) beta!
 
-I built zenbox.co to solve email overload. I am an [Inbox Zero](http://www.43folders.com/izero) geek and methodically empty my inbox.
+I built zenbox.co to solve email overload. As an [Inbox Zero](http://www.43folders.com/izero) geek I believe keeping a tidy inbox is essential to productivity.
 
-With the amount of email overload we all experience, this is an extremely tiresome task without any tools. Google's Inbox product is a solution that can help but I believe it falls short. That is because while it does a great job organizing your email into categories, it does not actually remove them from your inbox. That means you spend brain power processing them even while knowing they are not important. Also, while I think Google's Inbox machine learning approach is innovative and very intelligent, ultimately it works as a black box. In my opinion, your email inbox is too personal to ever allow a black box to control it.
+Unfortunately, with the amount of email overload we all experience, this is virtually impossible without any tools. The most successful tool to date is Google Inbox which makes a valiant attempt to help. For many people it is sufficient, but I have two main issues with it.
+
+1. While it does a great job organizing your email into categories, it does not actually remove them from your inbox. That means you spend brain power processing them even while knowing they are not important.
+1. Ultimately it works as a black box. In my opinion, your email inbox is too personal to ever allow a black box to control it. You need to fully understand what is happening in your inbox to effectively manage it.
 
 For these reasons, I needed a new solution. zenbox.co uses a rule-based system to keep your inbox tidy. At this stage, it supports three types of whitelist filters: Trusted Senders, Trusted Domains, and Trusted Mailing Lists. Any email you receive that does not match an entry in one of these strategies is moved from your inbox.
 

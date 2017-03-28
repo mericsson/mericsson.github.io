@@ -21,6 +21,6 @@ Trusted Domains allows you to whitelist entire domains. For example, you may wor
 
 Trusted Mailing Lists are for your important mailing lists. This works especially well for Google Groups. Just add the google group email address (e.g. soccer-buddies@googlegroups.com) and all emails sent to that address will stay in your inbox.
 
-My research shows that this initial set of zenbox.co strategies should cover a broad set of use cases. Would love to hear any thoughts on the matter!
+I believe this initial set of zenbox.co strategies should cover a broad set of use cases. Would love to hear any other ideas.
 
 Check out [zenbox.co](https://zenbox.co) and don't hesitate to contact me with any questions [@mericsson](https://twitter.com/mericsson). Thanks!

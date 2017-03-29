@@ -1,7 +1,7 @@
 ---
-title: Blog rebuilt in Gatsby JS
+title: Rebuilt my blog with Gatsby JS
 date: 2017-03-29T12:00:00.000Z
-path: /blog-rebuilt-gatsby-js/
+path: /rebuilt-blog-gatsby-js/
 ---
 
 As part of launching [zenbox.co](/zenbox-beta/) I wanted to revamp this blog and try to blog more actively.

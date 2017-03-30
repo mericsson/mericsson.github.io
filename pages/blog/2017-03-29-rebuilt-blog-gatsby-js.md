@@ -19,6 +19,7 @@ Tricky things I encountered:
 
 - GitHub pages requires personal hosted websites to be in 'master' branch. I had to modify the deploy script to handle that.
 - Links between blog posts do not leverage react-router so they result in a page load. I'd like to find a smart way to handle that.
+  - **Update** I'm told [catch-links](https://github.com/gatsbyjs/gatsby/blob/1.0/packages/gatsby-plugin-catch-links/src/gatsby-browser.js) will help with this.
 - Usual debate of inline css in react or not and using `className` everywhere. :)
 - Old examples of gatsby js in the [gatsby README.md](https://github.com/gatsbyjs/gatsby/blob/master/README.md). It is relatively new technology and still rapidly iterating, so I expect more changes in the future.
 

@@ -12,7 +12,7 @@ My wife and I love using our Amazon Echo primarily for:
 - Playing music from Spotify
 - and listening to the Radio
 
-Pretty much the only skill outside of that 'standard' fucntionality that we use is the [Bible Skill](TODO). It is a bit corny but it gets the job done in a crunch before starting small group / bible study.
+Pretty much the only skill outside of that 'standard' functionality that we use is the [Bible Skill](https://www.amazon.com/Life-Church-Bible/dp/B017RXFNKY/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1494350175&sr=1-1&keywords=bible). It is a bit corny but it gets the job done in a crunch before starting small group / bible study.
 
 Since I spent the last few years at Salesforce working on NLP and Machine Learning problems I felt could be interesting to dive into Alexa development. My initial idea for something to build was an easy way to make audio recordings and share them with your friends and family. Kind of like an audio blog or mini podcast. I was excited about this idea as it hit on a lot of things I am interested in.
 
@@ -24,6 +24,6 @@ If you want a user to pass data to you then you can use Slot Types. For example,
 
 I think the reason Alexa requires this much training is so that it can do smart conversational things like handle the phrase `Alexa, ask Pizza Monster to give me a pizza with pepperoni, onion, and anchovies` just as well as it would handle `Alexa, ask Pizza Monster for a pizza`. In the first example it would call multiple Intent Handlers for the one phrase, where the other one would have more of a question / answer flow to get all the data necessary to complete the Pizza order.
 
-OK, so back to the Twitter skill that can create tweets. I am calling it Tweet Bot. I want Alexa to handle the phrase `Alexa, tell Tweet Bot to tweet <tweet>`. The issue here is `<tweet>` is a Custom Slot Type that does not have any really expected data. Unlike `<ingredient>` which has more of a cohesive training set of data (subset of all foods), a `<tweet>` can be anything! After reading this [Alexa Developer Blog entry](TODO) I found the answer. You can accept open ended input via a Custom Slot Type if you train that Custom Slot Type on random phrases. So I built a [small tool](TODO) to do just that and it worked!
+OK, so back to the Twitter skill that can create tweets. I am calling it Tweet Bot. I want Alexa to handle the phrase `Alexa, tell Tweet Bot to tweet <tweet>`. The issue here is `<tweet>` is a Custom Slot Type that does not have any really expected data. Unlike `<ingredient>` which has more of a cohesive training set of data (subset of all foods), a `<tweet>` can be anything! After reading this [Alexa Developer Blog entry](https://developer.amazon.com/blogs/post/Tx3IHSFQSUF3RQP/why-a-custom-slot-is-the-literal-solution) I found the answer in 'Scenario 3'. You can accept open ended input via a Custom Slot Type if you train that Custom Slot Type on random phrases. So I built a [small tool](TODO) to do just that and it worked!
 
-Thanks for reading and check out [Tweet Bot](TODO) to try out my very first Alexa Skill.
+Thanks for reading and check out [Alexa Tweet Bot](http://bit.ly/tweet-bot) to try out my very first Alexa Skill.

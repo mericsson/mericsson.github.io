@@ -1,5 +1,5 @@
 ---
-title: My First Alexa Skill
+title: My first Alexa Skill
 date: 2017-05-11T12:00:00.000Z
 path: /my-first-alexa-skill/
 ---

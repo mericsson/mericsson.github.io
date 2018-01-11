@@ -52,7 +52,7 @@ class Footer extends React.Component {
             </div>
             <div className="footer-col footer-col-3">
               <p>
-                Software engineer trying to hack it as an entrepreneur, enjoying JS and recovering from building monolithic Java apps. coffee roaster and drinker.
+                Software engineer at <a href="https://mixmax.com">Mixmax</a>. Enjoying JS and recovering from building monolithic Java apps. coffee roaster and drinker.
               </p>
             </div>
           </div>

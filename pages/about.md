@@ -5,4 +5,4 @@ path: /about/
 
 I am a Software Developer living in Berkeley, California.
 
-Currently testing my startup chops, my latest application is now in beta. It is [zenbox.co](https://zenbox.co) - inbox zero simplified.
+I work at [Mixmax](https://mixmax.com) where we are trying to change the way teams communicate. Come join us!

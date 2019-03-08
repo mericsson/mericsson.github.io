@@ -4,18 +4,18 @@ Blog based on Gatsby starter blog https://github.com/gatsbyjs/gatsby-starter-blo
 
 ## Installation
 
-`yarn install`
+`npm install`
 
 ## Running in dev
 
-`yarn run dev`
+`npm run dev`
 
 ## Build and serve locally
 
 To test production deployment before deploying do:
 
-`yarn run build-serve`
+`npm run build-serve`
 
 ## Deploy to github master branch
 
-`yarn run deploy`
+`npm run deploy`

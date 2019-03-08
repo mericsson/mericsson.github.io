@@ -5,6 +5,36 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "2014-05-26-run-java-main-processes-in-play-framework-be0",
+        "path": "/2014-05-26-run-java-main-processes-in-play-framework/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "2015-02-07-stripe-and-github-pages-4ab",
+        "path": "/2015-02-07-stripe-and-github-pages/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "2017-03-22-zenbox-beta-c93",
+        "path": "/2017-03-22-zenbox-beta/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "2017-03-29-rebuilt-blog-gatsby-js-143",
+        "path": "/2017-03-29-rebuilt-blog-gatsby-js/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "2017-05-11-my-first-alexa-skill-5a0",
+        "path": "/2017-05-11-my-first-alexa-skill/"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "2019-03-07-postgres-and-snake-case-494",
+        "path": "/2019-03-07-postgres-and-snake-case/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "jsonName": "404-html-516",
         "path": "/404.html"
@@ -18,20 +48,5 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "hello-world-8bc",
-        "path": "/hello-world/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "hi-folks-a2b",
-        "path": "/hi-folks/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "my-second-post-2aa",
-        "path": "/my-second-post/"
     }
 ]

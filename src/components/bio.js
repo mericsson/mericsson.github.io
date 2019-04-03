@@ -1,75 +1,58 @@
-/**
- * Bio component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
-
-import { rhythm } from "../utils/typography"
 
 function Bio() {
+
+  const projects = [{
+    url: 'https://mixmax.com',
+    name: 'Mixmax',
+    description: 'Tech lead for Integrations team.'
+  }, {
+    url: 'https://salesforce.com',
+    name: 'Salesforce',
+    description: 'Lead engineer on Community Cloud, Chatter.'
+  }, {
+    url: 'https://zenbox.co',
+    name: 'Zenbox',
+    description: 'Email tool for helping you get to zero inbox.'
+  }, {
+    url: 'https://schuquette.com',
+    name: 'Schuquette',
+    description: 'Professional recipe management.'
+  }, {
+    url: 'https://www.amazon.com/dp/B0727V7DZW/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1494348421&sr=1-1',
+    name: 'Tweet Bot',
+    description: 'Alexa skill for composing tweets.'
+  }, {
+    url: 'https://appexchange.salesforce.com/appxListingDetail?listingId=a0N30000004cSsOEAU',
+    name: 'Chatter Delete Blocker',
+    description: 'Manage who can delete Salesforce Chatter data.'
+  }, {
+    url: 'https://github.com/mixmaxhq/search-string',
+    name: 'Search String',
+    description: 'Open source JS package for parsing search strings.'
+  }];
+  const projectLinks = projects
+    .map(project => {
+      const { url, name, description } = project;
+      return (
+        <li key={name}>
+          <a href={url} title={description} target="_blank">{name}</a> - {description}
+        </li>
+      );
+    });
+
   return (
-    <StaticQuery
-      query={bioQuery}
-      render={data => {
-        const { author, social } = data.site.siteMetadata
-        return (
-          <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
-            <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
-            </p>
-          </div>
-        )
-      }}
-    />
+
+    <div className="home">
+      <div className="about">
+        Experienced SaaS Engineer. Currently seeking Software Engineering and Salesforce consulting work in the Bay Area.
+      </div>
+      <h1 className="page-heading">Work</h1>
+      <ul>
+        {projectLinks}
+      </ul>
+    </div>
   )
 }
-
-const bioQuery = graphql`
-  query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    site {
-      siteMetadata {
-        author
-        social {
-          twitter
-        }
-      }
-    }
-  }
-`
 
 export default Bio

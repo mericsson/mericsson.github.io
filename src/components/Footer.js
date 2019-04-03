@@ -1,7 +1,7 @@
 import React from 'react';
 
 function obfuscator() {
-  let e = 'm' + 'e';
+  let e = 'me';
   if (2 === 1) {
     e += 'foo';
   }
@@ -14,7 +14,7 @@ class Footer extends React.Component {
       emailAddress: obfuscator(),
       isClicked: true,
     });
-    e.preventDefault(); // Avoid adding '#' to the URL.
+    e.preventDefault();
   }
 
   render() {
@@ -74,7 +74,7 @@ class Footer extends React.Component {
               ) : (
                 <span>
                   <a
-                    href="#"
+                    href="/"
                     onClick={e => this.onEmailAddressClick(e)}
                     title="Reveal this e-mail address"
                   >

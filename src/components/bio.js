@@ -36,7 +36,7 @@ function Bio() {
       const { url, name, description } = project;
       return (
         <li key={name}>
-          <a href={url} title={description} target="_blank">{name}</a> - {description}
+          <a href={url} title={description} target="_blank" rel="noopener noreferrer">{name}</a> - {description}
         </li>
       );
     });
